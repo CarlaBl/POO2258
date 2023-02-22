@@ -28,7 +28,10 @@ public class Main {
         System.out.print("Escribe tu nombre, profesion y nacionalidad: ");
         String entrada = teclado.nextLine();
         String [] salida = entrada.toUpperCase().split(" ");
-        /*for (int i = 0; i < salida.length ; i++) {
+        System.out.println( "nombre:" + salida[0]);
+        System.out.println( "profesion:" + salida[1]);
+        System.out.println( "nacionalidad:" + salida[2]);
+         /*for (int i = 0; i < salida.length ; i++) {
             if (i == 0) {
                 System.out.println( "nombre:" + salida[i]);
             } else if (i == 1) {
@@ -37,9 +40,6 @@ public class Main {
                 System.out.println( "nacionalidad:" + salida[i]);
             }
         }*/
-        System.out.println( "nombre:" + salida[0]);
-        System.out.println( "profesion:" + salida[1]);
-        System.out.println( "nacionalidad:" + salida[2]);
 
 
 
