@@ -14,6 +14,7 @@ public class ASCII {
                 if ( (int)texto.charAt(i-1) + 1  != (int)texto.charAt(i) ) {
                     valor = false;
                     break;
+
                 }
             }
         }
