@@ -19,9 +19,6 @@ public class ASCII {
             }
         }
     System.out.println("La cadena es consecutiva: " + valor);
-
-
-
     }
 }
 
