@@ -90,5 +90,4 @@ public class Gato {
         boolean resultado = Math.random()>0.51;
         return resultado;
     }
-
 }

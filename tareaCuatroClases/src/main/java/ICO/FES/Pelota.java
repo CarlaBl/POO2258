@@ -94,5 +94,4 @@ public class Pelota {
         float distancia = velocidad * tiempo;
         return distancia;
     }
-
 }

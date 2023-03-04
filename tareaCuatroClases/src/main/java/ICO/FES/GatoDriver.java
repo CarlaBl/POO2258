@@ -15,6 +15,5 @@ public class GatoDriver {
         cat2.setEdad((byte)20);
         System.out.println(cat2.toString());
         System.out.println(cat2.getEdad());
-
     }
 }
