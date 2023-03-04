@@ -11,7 +11,5 @@ public class TortugaDriver {
         turtle1.setNombre("Jose");
         System.out.println(turtle1);
         System.out.println(turtle1.getNombre());
-
-
     }
 }
