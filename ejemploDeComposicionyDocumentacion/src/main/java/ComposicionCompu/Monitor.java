@@ -1,17 +1,17 @@
-package Composicion;
+package ComposicionCompu;
 
-public class Mouse {
+public class Monitor {
     private String marca;
     private String modelo;
-    private String tipo;
+    private double pulgadas;
 
-    public Mouse() {
+    public Monitor() {
     }
 
-    public Mouse(String marca, String modelo, String tipo) {
+    public Monitor(String marca, String modelo, double pulgadas) {
         this.marca = marca;
         this.modelo = modelo;
-        this.tipo = tipo;
+        this.pulgadas = pulgadas;
     }
 
     public String getMarca() {
@@ -30,20 +30,20 @@ public class Mouse {
         this.modelo = modelo;
     }
 
-    public String getTipo() {
-        return tipo;
+    public double getPulgadas() {
+        return pulgadas;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setPulgadas(double pulgadas) {
+        this.pulgadas = pulgadas;
     }
 
     @Override
     public String toString() {
-        return "Mouse{" +
+        return "Monitor{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", tipo='" + tipo + '\'' +
+                ", pulgadas=" + pulgadas +
                 '}';
     }
 }

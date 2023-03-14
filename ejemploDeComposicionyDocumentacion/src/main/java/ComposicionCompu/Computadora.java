@@ -1,4 +1,4 @@
-package Composicion;
+package ComposicionCompu;
 
 public class Computadora {
     private String marca;

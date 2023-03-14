@@ -1,17 +1,17 @@
-package Composicion;
+package ComposicionCompu;
 
-public class Cpu {
+public class Mouse {
     private String marca;
     private String modelo;
-    private double velocidad; // en GHz
+    private String tipo;
 
-    public Cpu() {
+    public Mouse() {
     }
 
-    public Cpu(String marca, String modelo, double velocidad) {
+    public Mouse(String marca, String modelo, String tipo) {
         this.marca = marca;
         this.modelo = modelo;
-        this.velocidad = velocidad;
+        this.tipo = tipo;
     }
 
     public String getMarca() {
@@ -30,20 +30,20 @@ public class Cpu {
         this.modelo = modelo;
     }
 
-    public double getVelocidad() {
-        return velocidad;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setVelocidad(double velocidad) {
-        this.velocidad = velocidad;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     @Override
     public String toString() {
-        return "Cpu{" +
+        return "Mouse{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", velocidad=" + velocidad +
+                ", tipo='" + tipo + '\'' +
                 '}';
     }
 }

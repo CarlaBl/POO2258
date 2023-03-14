@@ -1,4 +1,4 @@
-package Composicion;
+package ComposicionCompu;
 
 public class DriverComputadora {
     public static void main(String[] args) {

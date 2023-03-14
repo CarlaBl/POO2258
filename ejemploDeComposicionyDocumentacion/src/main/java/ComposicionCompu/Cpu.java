@@ -1,17 +1,17 @@
-package Composicion;
+package ComposicionCompu;
 
-public class Monitor {
+public class Cpu {
     private String marca;
     private String modelo;
-    private double pulgadas;
+    private double velocidad; // en GHz
 
-    public Monitor() {
+    public Cpu() {
     }
 
-    public Monitor(String marca, String modelo, double pulgadas) {
+    public Cpu(String marca, String modelo, double velocidad) {
         this.marca = marca;
         this.modelo = modelo;
-        this.pulgadas = pulgadas;
+        this.velocidad = velocidad;
     }
 
     public String getMarca() {
@@ -30,20 +30,20 @@ public class Monitor {
         this.modelo = modelo;
     }
 
-    public double getPulgadas() {
-        return pulgadas;
+    public double getVelocidad() {
+        return velocidad;
     }
 
-    public void setPulgadas(double pulgadas) {
-        this.pulgadas = pulgadas;
+    public void setVelocidad(double velocidad) {
+        this.velocidad = velocidad;
     }
 
     @Override
     public String toString() {
-        return "Monitor{" +
+        return "Cpu{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", pulgadas=" + pulgadas +
+                ", velocidad=" + velocidad +
                 '}';
     }
 }
