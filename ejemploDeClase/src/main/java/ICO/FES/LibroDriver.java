@@ -9,5 +9,6 @@ public class LibroDriver {
         System.out.println(libro);
         libro.setSipnosis("El reino de fantasia esta en un serio peligro: pronto va a desaparecer sin que sus habitantes puedad evitarlo");
         System.out.println(libro);
+
     }
 }
