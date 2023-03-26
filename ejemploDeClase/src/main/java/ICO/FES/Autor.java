@@ -48,9 +48,9 @@ public class Autor {
     }
 
     public void escribir(){
-        System.out.println(pseudonimo + " escribio el libro...");
+        System.out.println("El autor "+ pseudonimo + " escribio el libro...");
     }
     public void promociones(){
-        System.out.println(nombre + " se promociono...");
+        System.out.println("El autor "+ nombre + " se promociono...");
     }
 }
