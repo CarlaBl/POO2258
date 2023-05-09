@@ -1,4 +1,4 @@
-package ICO.FES.actividadCuatro;
+package ICO.FES.actividad4;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

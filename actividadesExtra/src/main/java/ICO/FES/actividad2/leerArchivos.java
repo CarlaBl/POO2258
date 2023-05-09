@@ -1,4 +1,4 @@
-package ICO.FES.actividadDos;
+package ICO.FES.actividad2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package ICO.FES.actividaUno;
+package ICO.FES.actividad1;
 
 import java.util.Scanner;
 

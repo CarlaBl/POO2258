@@ -1,4 +1,4 @@
-package ICO.FES.actividadTres;
+package ICO.FES.actividad3;
 
 public class Layouts {
     public static void main(String[] args) {

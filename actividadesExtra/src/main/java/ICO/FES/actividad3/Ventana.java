@@ -1,6 +1,5 @@
-package ICO.FES.actividadTres;
+package ICO.FES.actividad3;
 
-import javax.swing.*;
 import java.awt.*;
 
 public class Ventana extends Frame {
