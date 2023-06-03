@@ -118,6 +118,5 @@ public class ModeloTablaComputadora implements TableModel {
     }
     public Computadora getCompuAtIndex (int idx){
         return datos.get(idx);
-
     }
 }
